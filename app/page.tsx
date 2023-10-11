@@ -4,7 +4,7 @@ import { Products } from "./components/products";
 const data = [
   {
     imageSrc: 'https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnwxMTM4MTU1NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
-    title: 'Nike Airmax v2',
+    title: 'Cartoon Poster',
   },
   // Add more objects as needed
 ];
