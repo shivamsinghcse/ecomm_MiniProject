@@ -1,13 +1,20 @@
 import { Navbar } from "./components/navbar";
 import { Products } from "./components/products";
+import GamingImage from "../images/gamming.jpg";
+import MovieImage from "../images/movie.jpg"
+import Image from "next/image";
 
 const data = [
+  
   {
-    imageSrc: 'https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnwxMTM4MTU1NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60',
-    title: 'Nike Airmax v2',
+    imageSrc: GamingImage,
+    title: 'Gamming',
+    width: 376,
+    height: 256,
   },
-  // Add more objects as needed
+  
 ];
+
 
 export default function Page() {
   return (
@@ -37,6 +44,7 @@ export default function Page() {
         <Products></Products>
       </div>
 
+
       {/* catgeory  */}
       <div>
       <h2 className="text-2xl underline mt-10 text-center font-bold">Category</h2>
@@ -47,8 +55,11 @@ export default function Page() {
             key={i}
             className="relative aspect-[1/1]  w-auto rounded-md md:aspect-auto md:h-[200px]"
           >
-            <img
+            <Image
               src={item.imageSrc}
+              width={item.width}
+              height={item.height}
+
               alt="AirMax Pro"
               className="z-0 h-full w-full rounded-md object-cover"
             />

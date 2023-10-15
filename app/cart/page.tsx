@@ -101,7 +101,7 @@ export default function Page() {
                   </li>
                   <div className="mb-2 flex">
                     <div className="min-w-24 flex">
-                      <button type="button" className="h-7 w-7">
+                      <button type="button" className="h-7 w-7" onClick={}>
                         -
                       </button>
                       <input
