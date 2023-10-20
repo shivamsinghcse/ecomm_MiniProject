@@ -6,14 +6,10 @@ import { Menu, X } from 'lucide-react'
 const menuItems = [
   {
     name: 'Home',
-    href: '#',
+    href: '../',
   },
   {
-    name: 'Anime',
-    href: '#',
-  },
-  {
-    name: 'Quote',
+    name: 'Limited Displates',
     href: '#',
   },
   {
@@ -22,7 +18,11 @@ const menuItems = [
   },
   {
     name: 'Cart',
-    href: '#',
+    href: '../cart',
+  },
+  {
+    name: 'About Us',
+    href: '../about',
   },
 ]
 
