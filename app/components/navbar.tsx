@@ -22,7 +22,7 @@ const menuItems = [
   },
   {
     name: 'About Us',
-    href: '#',
+    href: '../aboutus',
   },
 ]
 
