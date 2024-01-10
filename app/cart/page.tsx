@@ -1,6 +1,8 @@
+'use client'
 import { Heart, Trash } from 'lucide-react'
 import React from 'react'
 import { Navbar } from '../components/navbar'
+import { useState } from 'react'
 
 const products = [
   {
@@ -42,6 +44,10 @@ const products = [
 ]
 
 export default function Page() {
+  const [count, setcount]= useState(1);
+  function incriment(){
+    setcount(count+1);
+  }
   return (
     <>
     <Navbar></Navbar>
@@ -107,9 +113,10 @@ export default function Page() {
                       <input
                         type="text"
                         className="mx-1 h-7 w-9 rounded-md border text-center"
-                        defaultValue={1}
+                        defaultValue={count}
+                        key={product.id}
                       />
-                      <button type="button" className="flex h-7 w-7 items-center justify-center">
+                      <button type="button" onClick={incriment} key={product.id} className="flex h-7 w-7 items-center justify-center ">
                         +
                       </button>
                     </div>
