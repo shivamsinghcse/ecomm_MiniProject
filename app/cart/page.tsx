@@ -7,40 +7,30 @@ import { useState } from 'react'
 const products = [
   {
     id: 1,
-    name: 'Nike Air Force 1 07 LV8',
+    name: 'Jujutsu Kaisen Sukuna',
     href: '#',
-    price: '₹47,199',
-    originalPrice: '₹48,900',
-    discount: '5% Off',
-    color: 'Orange',
-    size: '8 UK',
+    price: '₹120',
+    originalPrice: '₹500',
+    discount: '76% Off',
+    color: 'grey',
+    size: 'XL',
     imageSrc:
-      'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/54a510de-a406-41b2-8d62-7f8c587c9a7e/air-force-1-07-lv8-shoes-9KwrSk.png',
+      'https://static.displate.com/230x320/displate/2023-09-06/5d2830f708aa2f04e54294eac1f226db_2cb0847aa58eef19201b4cf03a979d36.avif',
   },
   {
     id: 2,
-    name: 'Nike Blazer Low 77 SE',
+    name: 'Miles Morales',
     href: '#',
-    price: '₹1,549',
-    originalPrice: '₹2,499',
-    discount: '38% off',
-    color: 'White',
-    leadTime: '3-4 weeks',
-    size: '8 UK',
-    imageSrc:
-      'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e48d6035-bd8a-4747-9fa1-04ea596bb074/blazer-low-77-se-shoes-0w2HHV.png',
-  },
-  {
-    id: 3,
-    name: 'Nike Air Max 90',
-    href: '#',
-    price: '₹2219 ',
-    originalPrice: '₹999',
+    price: '₹99',
+    originalPrice: '₹500',
     discount: '78% off',
-    color: 'Black',
+    color: 'RED',
+    leadTime: '3-4 weeks',
+    size: 'XL',
     imageSrc:
-      'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fd17b420-b388-4c8a-aaaa-e0a98ddf175f/dunk-high-retro-shoe-DdRmMZ.png',
+      'https://static.displate.com/230x320/displate/2023-08-25/285514065b5d7a7226aa650b44c1998b_a1cefa1098bccd7c2fa078de3800b5d5.avif',
   },
+  
 ]
 
 export default function Page() {
